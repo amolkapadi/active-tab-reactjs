@@ -1,0 +1,53 @@
+/* Full-page gradient background */
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Center container for the tabs */
+  .tab-section-container {
+    text-align: center;
+  }
+  
+  /* Styling for the tab buttons */
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab-button.active {
+    background-color: white;
+    font-weight: bold;
+    border-bottom: 5px solid green; /* Green bottom border for active tab */
+  }
+  
+  .tab-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Card to display tab content */
+  .tab-content-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: auto;
+  }
+  
